@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+#board {
+    background-color: #fff;
+    padding: 0;
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+}
+
+.row {
+    height: 100px;
+    width: 100%;
+}
+
+.square {
+    position: relative;
+    background: #efefef;
+    background-color: #fff;
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+    text-align:center;
+}
+
+.empty {
+    position: absolute;
+    background-color: black;
+    border: rgba(255, 255, 255, 0);
+    border-radius: 100%;
+    height: 20%;
+    width: 20%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.player-one {
+    position: absolute;
+    background-color: red;
+    border: rgba(255, 255, 255, 0);
+    border-radius: 15%;
+    height: 55%;
+    width: 55%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.player-two {
+    position: absolute;
+    background-color: green;
+    border: rgba(255, 255, 255, 0);
+    border-radius: 15%;
+    height: 55%;
+    width: 55%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.player-one.selected, .player-two.selected {
+    border-radius: 25%;
+    border: solid 10px gold;
+}
+
+.player-one-status {
+    color: red;
+}
+
+.player-two-status {
+    color: green;
+}
+
+#start-new-game {
+    margin-right: 1em;
+    /* font-weight: bold; */
+}
+
+.menu-button {
+    /* font-style: italic; */
+    text-decoration: underline;
+    color: darkblue;
+    margin-left: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+}

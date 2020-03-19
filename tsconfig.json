@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES2017",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "sourceMap": true,
+        "strict": true,
+        "noUnusedLocals": false,
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "moduleResolution": "node",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext",
+        ]
+    },
+    "include": [
+        "global.d.ts",
+        "./src/**/*", "wwwroot/js/Cell.ts"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}
