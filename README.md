@@ -1,7 +1,7 @@
 
 # Five Field Kono
 
-NB! Original repo was made in schools's private repo gitlab.cs.ttu and it is not possible to make it public there. 
+NB! Original repo was made in school's private repo gitlab.cs.ttu and it is not possible to make it public there. 
 
 #### Game engine is written with TypeSprict
 
