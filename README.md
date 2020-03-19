@@ -3,13 +3,17 @@
 
 NB! Original repo was made in schools's private repo gitlab.cs.ttu and it is not possible to make it public there. 
 
-### Player vs Player
+#### Game engine is written with TypeSprict
 
-### Player vs AI
+#### Node.js is used for web server
 
-### AI vs AI
+#### Minimax + alpha-beta pruning is used for AI
 
-### Minimax + alpha-beta pruning is used for AI
+#### Player vs Player
+
+#### Player vs AI
+
+#### AI vs AI
 
   
 
